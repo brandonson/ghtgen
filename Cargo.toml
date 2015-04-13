@@ -1,0 +1,12 @@
+[package]
+name = "ghtgen"
+version = "0.0.1"
+authors = ["Brandon Sanderson <bas.bsanders@gmail.com>"]
+
+[dependencies]
+getpass = "*"
+docopt_macros = "*"
+
+[dependencies.gitoken]
+git = "https://github.com/brandonson/gitoken-rs.git"
+
